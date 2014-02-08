@@ -1,0 +1,316 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:13px Arial, sans-serif; background:#FFFFFF; color:#4B7589; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#E92777; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header_wrap{
+	width: 100%;
+	height: 450px;
+	background: url(images/bg.png) repeat-x;
+}
+.header{
+	width: 900px;
+	height: 431px;
+	margin: 0 auto;
+	padding-top: 19px;
+	background: url(images/rounds.png) no-repeat;
+	background-position: 50% 100%;
+}
+h1{
+	float: left;
+	width: 167px;
+	height: 71px;
+	overflow: hidden;
+}
+.social{
+	overflow: hidden;
+	text-align: center;
+	padding-top: 25px
+}
+.social li{
+	background: url(images/social.png) no-repeat;
+	display: inline-block;
+	width: 29px;
+	height: 26px;
+	overflow: hidden;
+}
+.social li a{
+	display:block;
+	width: 23px;
+	height: 23px;
+}
+.social .vkontakte{
+	background-position: -32px 0px;
+}
+.social .twitter{
+	background-position: -64px 0px;
+}
+.social .youtube{
+	background-position: -96px 0px;
+}
+.social .vimeo{
+	background-position: -128px 0px;
+}
+.social .facebook:hover{
+	background-position: 0px -26px;
+}
+.social .vkontakte:hover{
+	background-position: -32px -26px;
+}
+.social .twitter:hover{
+	background-position: -64px -26px;
+}
+.social .youtube:hover{
+	background-position: -96px -26px;
+}
+.social .vimeo:hover{
+	background-position: -128px -26px;
+}
+.header h3{
+	font: 53px Trebuchet MS;
+	color: #246987;
+	text-align: center;
+	padding-top: 60px;
+	border-top: 1px solid #A7C3CF;
+	margin-top: 36px;
+}
+a.registration{
+	display: block;
+	width: 307px;
+	height: 77px;
+	margin: 0 auto;
+	padding: 40px 0px 0px 110px;
+	background: url(images/reg_bg.png) no-repeat;
+	background-position: 50% 50%;
+	font: 26px Trebuchet MS;
+	color: #FFFFFF;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.navigation{
+	float: right;
+	text-transform: uppercase;
+	margin-top: 31px;
+}
+.navigation li{
+	float: left;
+	margin-right: 20px;
+}
+.header ul.navigation a{
+	font: 16px PT Sans, Verdana;
+	font-weight: bold;
+	color: #396375;
+}
+ul.navigation a:hover{
+	color: #E11D5C;
+}
+ul.navigation li.active a{
+	color: #E11D5C;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content{
+	width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+p.about_gh{
+	margin: 35px auto 25px;
+	width: 710px;
+	line-height: 22px;
+	font-size: 15px;
+}
+p.about_gh a{
+	font-size: 15px;
+}
+p.about_gh a:hover{
+	text-decoration: underline;
+}
+.content h2{
+	font: 20px Trebuchet MS;
+	color: #437183;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 5px;
+	letter-spacing: 8px;
+	border-bottom: 1px solid #A7C3CF;
+}
+.content ul{
+	overflow: hidden;
+	padding: 25px 0px 30px;
+}
+.content ul li{
+	width: 440px;
+	float: left;
+	margin-bottom: 30px;
+}
+.content ul li:nth-child(odd){
+	margin-right: 20px;
+}
+.content ul img{
+	display: block;
+	width: 94px; 
+	height: 94px;
+	border: 2px dashed #EB2A7A;
+	border-radius: 50%;
+	padding: 10px;
+	margin-right: 20px;
+	float: left;
+}
+.content ul h3 a{
+	font: 28px Trebuchet MS;
+	line-height: 24px;
+	color: #E92777;
+}
+.content ul p{
+	line-height: 18px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.sidebar{
+	width: 900px;
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+ul.widgets{
+	overflow: hidden;
+}
+ul.widgets li{
+	float: left;
+	width: 276px;
+	height: 214px;
+}
+li.soc_net, li.sponsors{
+	margin-top: 20px;
+}
+li.certificates_box{
+	background: #F4F9FA;
+	margin: 0px 19px;
+}            
+ul.widgets h4{
+	font: 17px Trebuchet MS;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	border-bottom: 1px solid #A7C3CF;
+}
+.partners{
+	overflow: hidden;
+	text-align: center;
+	padding-top: 20px;
+}
+ul.widgets li.sponsors ul.partners li{
+	background: url(images/partners.png) no-repeat;
+	display: inline-block;
+	width: 72px;
+	height: 60px;
+	margin: 0px 10px;
+}
+ul.widgets li ul.partners li a{
+	display:block;
+	width: 72px;
+	height: 60px;
+}
+ul.widgets li.sponsors ul.partners li.moc{
+	background-position: -105px 0px;
+}
+ul.widgets li.sponsors ul.partners li.ser{
+	background-position: -210px -12px;
+}
+ul.widgets li.sponsors ul.partners li.yt{
+	margin-left: 60px;
+	background-position: -51px -73px;
+}
+ul.widgets li.sponsors ul.partners li.clf{
+	background-position: -144px -70px;
+}
+ul.widgets li.sponsors ul.partners li.de:hover{
+	background-position: 0px -133px;
+}
+ul.widgets li.sponsors ul.partners li.moc:hover{
+	background-position: -104px -133px;
+}
+ul.widgets li.sponsors ul.partners li.ser:hover{
+	background-position: -210px -144px;
+}
+ul.widgets li.sponsors ul.partners li.yt:hover{
+	margin-left: 60px;
+	background-position: -51px -205px;
+}
+ul.widgets li.sponsors ul.partners li.clf:hover{
+	background-position: -144px -202px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+	width: 900px;
+	margin: 0 auto;
+	border-top: 1px solid #A7C3CF;
+	padding: 20px 0px 40px;
+	text-align: right;
+}
+.footer ul li{
+	float: left;
+	margin-right: 20px;
+}
+.footer li a{
+	font: 11px Arial;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #396375;
+}
+.footer a:hover{
+	color: #F85B4E;
+}
+.footer li.active a{
+	color: #F85B4E;
+}
+.footer p{
+	font-size: 11px;
+	color: #A7C3CF;
+}
