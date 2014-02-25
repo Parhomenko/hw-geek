@@ -1,0 +1,182 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:13px Trebuchet MS, sans-serif; background:url(../images/bg.jpg); color:#505050; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Trebuchet MS, sans-serif; color:#4C8BBF; text-decoration:none; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float_r           	           { float:right !important; }
+.float_l                       { float:left !important; }
+.no_float                      { float:none !important; }
+.no_border                     { border:0 !important; }
+.no_bg                         { background:none !important; }
+.no_margin                     { margin:0 !important; }
+.no_padding                    { padding:0 !important; }
+.no_display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align_r                       { text-align:right !important; }
+.align_l                       { text-align:left !important; }
+.align_c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper{
+	width: 780px;
+	margin: 0 auto;
+	padding: 18px 0 20px 0;
+	background: white;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header{
+	height: 194px;
+	background: url(../images/bg_header.png) center no-repeat;
+}
+h1{
+	width: 305px;
+	height: 115px;
+	padding: 35px 0px 0px 43px;
+	overflow: hidden;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content{
+	padding: 15px 40px 50px 40px; 
+}
+h2{
+	padding:7px 15px 7px;
+	background: #FCF1F7;
+	color: #E196C8;
+	font: italic 18px georgia;
+}
+ul.articles li{
+	padding: 10px 0px 10px;
+	border-bottom: 1px solid #FCF1F7;
+}
+ul.articles li.no_border{
+	padding-bottom: 18px;
+}
+ul.articles p{
+	margin-bottom: 10px;
+}
+.content h3{
+	padding:7px 15px 7px;
+	margin-bottom: 10px;
+	background: #EBF4FB;
+	color: #4C8BBF;
+	font: italic 18px georgia;
+}
+
+ul.popular_sections li{
+	float: left;
+	width: 136px;
+	text-align: center;
+	margin-right: 6px;
+}
+
+ul.pre_footer_box > li{
+	float: left;
+	background: #EBF4FB;
+	width: 340px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+}
+ul.pre_footer_box li.pre_footer_margin{
+	margin-right: 20px;
+}
+ul.pre_footer_box li ul li a{
+	color: #6E6E6F;
+}
+ul.pre_footer_box ul{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+a.read_more{
+ 	background: url(../images/triangle.png);
+ 	background-repeat: no-repeat;
+ 	background-position: right;
+ 	padding-right: 10px;
+}
+ul.pre_footer_box a.read_more{
+	margin-left: 15px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer{
+	clear: left;
+	padding: 50px 40px 20px;
+	text-align: center;
+}
+.copyright{
+	color: #E39FCD;
+	font-size: 11px;
+}
+.footer ul li{
+	display: inline;
+	margin-right: 15px;
+}
+.footer a{
+	color: #A9A9A9;
+	font-size: 11px;
+}
+/*----------------------------------------------------------------------------------*/
+/*--------------------------------------POPUP---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.popup{
+	display: none;
+	width: 500px;
+	height: 300px;
+	background: red;
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	margin-left: -250px;
+	text-align: center;
+}
+.popup img{
+	margin-top: 82px;	
+}
+.popup span{
+	display: block;
+	width: 50px;
+	height: 100%;
+}
+.left{
+	float: left;
+	background: url(../images/left.png) no-repeat;
+	background-position: 0% 50%;
+}
+.right{
+	float: right;
+	background: url(../images/right.png) no-repeat;
+	background-position: 0% 50%;
+}
